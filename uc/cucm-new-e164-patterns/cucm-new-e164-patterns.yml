@@ -1,0 +1,32 @@
+CCM:
+  URL: "https://CUCM-HOSTNAME:8443/axl/"
+  LocalPartition: "E164_PSTNLoc_PT"
+  WSDL: "file:///home/eric/cisco/axlsqltoolkit/schema/current/AXLAPI.wsdl" # update for actual file location
+  CertificateAuthority: "CERTFILE"
+  
+
+Locations:
+  - Name: "Calgary"
+    NPA: "403"
+    NXX: "298"
+    RefUUID: "c7a3f5fc-b8f8-eb6f-61d7-98b9e0f41807"
+  
+  - Name: "Edmonton"
+    NPA: "780"
+    NXX: "421"
+    RefUUID: "410cca61-1501-ed0d-222d-90d500eee49b"
+  
+  - Name: "Toronto"
+    NPA: "416"
+    NXX: "863"
+    RefUUID: "e0d21a65-a003-17a6-26a7-a6225e661338"
+  
+  - Name: "Ottawa"
+    NPA: "613"
+    NXX: "683"
+    RefUUID: "87782586-b8ec-7a47-aef8-32b7f9474c0c"
+  
+  - Name: "Vancouver"
+    NPA: "604"
+    NXX: "822"
+    RefUUID: "031b201b-6cb2-d99c-518f-ccfd801632c6"

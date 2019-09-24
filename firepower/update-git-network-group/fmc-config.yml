@@ -1,0 +1,4 @@
+server: "https://firepower"
+git-group: "github.com_git-blocks"
+CredentialFile: "fmc-cred.yml"
+CertificateAuthority: "CERTFILE"
